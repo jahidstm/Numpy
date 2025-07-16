@@ -1,43 +1,56 @@
+# 📊 NumPy Mastery: From Basics to Advanced
+**Complete NumPy implementation with practical examples**
 
-# 🧮 NumPy Essentials
-
-Welcome to **NumPy Essentials** – a focused learning journey into Python's most powerful library for numerical computing.  
-This repo documents my hands-on practice with arrays, broadcasting, linear algebra, and more.
-
----
-
-## 📘 What I’ve Learned
-
-### ✅ Core Concepts
-- Creating arrays: `array`, `arange`, `linspace`
-- Indexing, slicing, and reshaping
-- Broadcasting and vectorized operations
-
-### ✅ Math & Stats
-- Element-wise operations
-- Aggregations: `sum()`, `mean()`, `std()`, `max()`
-
-### ✅ Linear Algebra
-- Matrix multiplication (`dot`, `matmul`)
-- Transpose, inverse, determinant
-- Solving equations
-
-### ✅ Random Module
-- Random arrays and distributions
-- Reproducibility with `np.random.seed()`
+![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-yellowgreen)
+![Progress](https://img.shields.io/badge/Status-Complete-success)
 
 ---
 
-## 📂 What’s Inside
-
-- 📓 Practice notebooks for each topic  
-- 🔁 Real examples with clear, commented code  
-- 🧠 Beginner-friendly learning, step by step  
+## 📌 Table of Contents
+- [Topics Covered](#-topics-covered)
+- [Quick Examples](#-quick-examples)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [Connect](#-connect-with-me)
 
 ---
 
-## 🤝 Connect with Me
+## 🎯 Topics Covered
 
-- 📧 Email: jahidhasanstm@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/jahidhasan](https://www.linkedin.com/in/jahidhasan)  
-- 📁 [Download My CV](https://drive.google.com/file/d/1YVD9fSDKkI47Jl4Il_4MpsXfNpYF4g8w/view?usp=drive_link)
+### 1. Basic NumPy
+- Array creation (`np.array()`, `np.zeros()`)
+- Array attributes (`shape`, `dtype`, `ndim`)
+- Basic operations (`+`, `*`, `np.sum()`)
+
+### 2. Indexing & Slicing
+- Basic indexing (`arr[2:5]`)
+- Boolean masking (`arr[arr > 5]`)
+- Fancy indexing (`arr[[1,3,4]]`)
+
+### 3. Broadcasting
+- Rules of broadcasting
+- Practical applications
+- Performance implications
+
+### 4. Handling Missing Values
+- `np.nan` operations
+- `np.isnan()`
+- Filling/replacing missing values
+
+### 5. Advanced NumPy
+- Structured arrays
+- Memory views
+- Advanced ufunc usage
+
+---
+
+## ⚡ Quick Examples
+
+**Broadcasting**
+```python
+a = np.array([1, 2, 3])
+b = 2
+print(a * b)  # [2 4 6]
