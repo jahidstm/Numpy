@@ -41,9 +41,3 @@ This repo documents my hands-on practice with arrays, broadcasting, linear algeb
 - 📧 Email: jahidhasanstm@gmail.com  
 - 💼 LinkedIn: [linkedin.com/in/jahidhasan](https://www.linkedin.com/in/jahidhasan)  
 - 📁 [Download My CV](https://drive.google.com/file/d/1YVD9fSDKkI47Jl4Il_4MpsXfNpYF4g8w/view?usp=drive_link)
-
----
-
-<p align="center">
-  ⭐ Found this helpful? Star the repo and stay tuned for more! ⭐  
-</p>
