@@ -7,17 +7,6 @@
 
 ---
 
-## 📌 Table of Contents
-- [Topics Covered](#-topics-covered)
-- [Quick Examples](#-quick-examples)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [Connect](#-connect-with-me)
-
----
-
 ## 🎯 Topics Covered
 
 ### 1. Basic NumPy
